@@ -1,0 +1,136 @@
+Sl. No,Satellite Name,Launch Date,Launch Vehicle,Status,Mission Type,Orbit Type,NORAD ID,Operating Country,Operating Organization,Remarks
+1,Aryabhatta,19-04-1975,C-1 Intercosmos,Not Operational,Technology Demonstration,Low Earth Orbit (LEO),07752,India,Indian Space Research Organisation (ISRO),N/A
+2,Bhaskara-1,07-06-1979,C1 Intercosmos,Not Operational,Earth Observation,Low Earth Orbit (LEO),11392,India,Indian Space Research Organisation (ISRO),N/A
+3,Rohini Technology Payload,10-08-1979,SLV-3E1,Not Operational,Technology Demonstration,N/A (did not reach orbit),N/A,India,Indian Space Research Organisation (ISRO),N/A
+4,RS-1,18-07-1980,SLV-3E2,Not Operational,Technology Demonstration,Low Earth Orbit (LEO),11899,India,Indian Space Research Organisation (ISRO),N/A
+5,RS-D1,31-05-1981,SLV-3D1,Not Operational,Earth Observation,N/A (launch failure),N/A,India,Indian Space Research Organisation (ISRO),Launch unsuccessful
+6,APPLE,19-06-1981,Ariane -1(V3),Not Operational,Technology Demonstration (Communications),Geostationary Orbit (GEO),12545,India,Indian Space Research Organisation (ISRO),N/A
+7,BHASKARA-2,20-11-1981,C-1 Intercosmos,Not Operational,Earth Observation,Low Earth Orbit (LEO),12968,India,Indian Space Research Organisation (ISRO),N/A
+8,INSAT-1A,10-04-1982,Delta,Not Operational,Communications,Geostationary Orbit (GEO),13129,India,Indian Space Research Organisation (ISRO),Satellite failure
+9,RS-D2,17-04-1983,SLV-3,Not Operational,Earth Observation,Low Earth Orbit (LEO),14002,India,Indian Space Research Organisation (ISRO),N/A
+10,INSAT-1B,30-08-1983,Shuttle [PAM-D],Not Operational,Earth Observation/Communications,Geostationary Orbit (GEO),14318,India,Indian Space Research Organisation (ISRO),N/A
+11,SROSS-1,24-03-1987,ASLV-D1,Not Operational,Technology Demonstration,N/A (launch failure),N/A,India,Indian Space Research Organisation (ISRO),Launch unsuccessful
+12,IRS-1A,17-03-1988,Vostok,Not Operational,Earth Observation,Sun-Synchronous Orbit (SSO),18960,India,Indian Space Research Organisation (ISRO),N/A
+13,SROSS-2,13-07-1988,ASLV-D2,Not Operational,Technology Demonstration,N/A (launch failure),N/A,India,Indian Space Research Organisation (ISRO),Launch unsuccessful
+14,INSAT-1C,22-07-1988,Ariane-3,Not Operational,Communications,Geostationary Orbit (GEO),19330,India,Indian Space Research Organisation (ISRO),Satellite failure
+15,INSAT-1D,12-06-1990,Delta 4925,Not Operational,Earth Observation/Communications,Geostationary Orbit (GEO),20643,India,Indian Space Research Organisation (ISRO),N/A
+16,IRS-1B,29-08-1991,Vostok,Not Operational,Earth Observation,Sun-Synchronous Orbit (SSO),21688,India,Indian Space Research Organisation (ISRO),N/A
+17,SROSS-C,20-05-1992,ASLV-D3,Not Operational,Technology Demonstration,Low Earth Orbit (LEO),21968,India,Indian Space Research Organisation (ISRO),N/A
+18,INSAT-2A,10-07-1992,Ariane-44L H10,Not Operational,Communications,Geostationary Orbit (GEO),22027,India,Indian Space Research Organisation (ISRO),N/A
+19,INSAT-2B,23-07-1993,Ariane-44L H10+,Not Operational,Communications,Geostationary Orbit (GEO),22724,India,Indian Space Research Organisation (ISRO),N/A
+20,IRS-1E,20-09-1993,PSLV-D1,Not Operational,Earth Observation,N/A (launch failure),N/A,India,Indian Space Research Organisation (ISRO),Launch unsuccessful
+21,SROSS-C2,04-05-1994,ASLV-D4,Not Operational,Technology Demonstration,Low Earth Orbit (LEO),23099,India,Indian Space Research Organisation (ISRO),N/A
+22,IRS-P2,15-10-1994,PSLV-D2,Not Operational,Earth Observation,Sun-Synchronous Orbit (SSO),23323,India,Indian Space Research Organisation (ISRO),N/A
+23,INSAT-2C,07-12-1995,Ariane-44L H10-3,Not Operational,Communications,Geostationary Orbit (GEO),23731,India,Indian Space Research Organisation (ISRO),N/A
+24,IRS-1C,28-12-1995,Molniya,Not Operational,Earth Observation,Sun-Synchronous Orbit (SSO),23751,India,Indian Space Research Organisation (ISRO),N/A
+25,IRS-P3,21-03-1996,PSLV-D3,Not Operational,Earth Observation,Sun-Synchronous Orbit (SSO),23827,India,Indian Space Research Organisation (ISRO),N/A
+26,INSAT-2D,04-06-1997,Ariane-44L H10-3,Not Operational,Communications,Geostationary Orbit (GEO),24820,India,Indian Space Research Organisation (ISRO),Satellite failure
+27,IRS-1D,29-09-1997,PSLV-C1,Not Operational,Earth Observation,Sun-Synchronous Orbit (SSO),24971,India,Indian Space Research Organisation (ISRO),N/A
+28,INSAT-2E,03-04-1999,Ariane-42P H10-3,Not Operational,Communications,Geostationary Orbit (GEO),25666,India,Indian Space Research Organisation (ISRO),N/A
+29,OCEANSAT-1(IRSP4),26-05-1999,PSLV-C2,Not Operational,Earth Observation,Sun-Synchronous Orbit (SSO),25758,India,Indian Space Research Organisation (ISRO),N/A
+30,INSAT-3B,22-03-2000,Ariane-5G,Not Operational,Communications,Geostationary Orbit (GEO),26108,India,Indian Space Research Organisation (ISRO),N/A
+31,GSAT-1,18-04-2001,GSLV-D1,Not Operational,Communications,N/A (launch failure),N/A,India,Indian Space Research Organisation (ISRO),Launch unsuccessful
+32,TES,22-10-2001,PSLV-C3,Not Operational,Technology Demonstration,Sun-Synchronous Orbit (SSO),26957,India,Indian Space Research Organisation (ISRO),N/A
+33,INSAT-3C,24-01-2002,Ariane5-V147,Not Operational,Communications,Geostationary Orbit (GEO),27298,India,Indian Space Research Organisation (ISRO),N/A
+34,KALPANA,12-09-2002,PSLV-C4,Not Operational,Earth Observation (Meteorology),Geostationary Orbit (GEO),27525,India,Indian Space Research Organisation (ISRO),N/A
+35,INSAT-3A,10-04-2003,Ariane5-V160,Not Operational,Earth Observation/Communications,Geostationary Orbit (GEO),27714,India,Indian Space Research Organisation (ISRO),N/A
+36,GSAT-2,05-08-2003,GSLV-D2,Not Operational,Communications,Geostationary Orbit (GEO),27807,India,Indian Space Research Organisation (ISRO),N/A
+37,INSAT-3E,28-09-2003,Ariane5-V162,Not Operational,Communications,Geostationary Orbit (GEO),27951,India,Indian Space Research Organisation (ISRO),N/A
+38,RESOURCESAT-1,17-10-2003,PSLV-C5,Not Operational,Earth Observation,Sun-Synchronous Orbit (SSO),28051,India,Indian Space Research Organisation (ISRO),N/A
+39,EDUSAT,20-09-2004,GSLV-F01,Not Operational,Communications (Education),Geostationary Orbit (GEO),28417,India,Indian Space Research Organisation (ISRO),N/A
+40,CARTOSAT-1,05-05-2005,PSLV-C6,Not Operational,Earth Observation,Sun-Synchronous Orbit (SSO),28649,India,Indian Space Research Organisation (ISRO),N/A
+41,HAMSAT,05-05-2005,PSLV-C6,Not Operational,Technology Demonstration (Amateur Radio),Sun-Synchronous Orbit (SSO),28650,India,Indian Space Research Organisation (ISRO),N/A
+42,INSAT-4A,22-12-2005,Ariane5-V169,Not Operational,Communications,Geostationary Orbit (GEO),28911,India,Indian Space Research Organisation (ISRO),N/A
+43,INSAT-4C,10-07-2006,GSLV-F02,Not Operational,Communications,N/A (launch failure),N/A,India,Indian Space Research Organisation (ISRO),Launch unsuccessful
+44,CARTOSAT-2,10-01-2007,PSLV-C40,Not Operational,Earth Observation,Sun-Synchronous Orbit (SSO),29710,India,Indian Space Research Organisation (ISRO),N/A
+45,SRE-1,10-01-2007,PSLV-C7,Not Operational,Technology Demonstration (Re-entry),Low Earth Orbit (LEO),29711,India,Indian Space Research Organisation (ISRO),N/A
+46,INSAT-4B,12-03-2007,Ariane5,Not Operational,Communications,Geostationary Orbit (GEO),30793,India,Indian Space Research Organisation (ISRO),N/A
+47,INSAT-4CR,02-09-2007,GSLV-F04,Not Operational,Communications,Geostationary Orbit (GEO),32050,India,Indian Space Research Organisation (ISRO),N/A
+48,CARTOSAT-2A,28-04-2008,PSLV-C9,Operational,Earth Observation,Sun-Synchronous Orbit (SSO),32783,India,Indian Space Research Organisation (ISRO),N/A
+49,IMS-1,28-04-2008,PSLV-C9,Not Operational,Technology Demonstration,Sun-Synchronous Orbit (SSO),32786,India,Indian Space Research Organisation (ISRO),N/A
+50,CHANDRAYAAN-1,22-10-2008,PSLV-C11,Not Operational,Space Science (Lunar Exploration),Lunar Orbit,33405,India,Indian Space Research Organisation (ISRO),N/A
+51,W2M,21-12-2008,Ariane5,Not Operational,Communications,Geostationary Orbit (GEO),N/A,Afghanistan,"Ministry of Communications and Information Technology, Afghanistan (renamed Afghansat 1; originally built for Eutelsat, delivery rejected in 2009)",Satellite built by ISRO for foreign customer
+52,RISAT-2,20-04-2009,PSLV-C48,Not Operational,Earth Observation (Radar Imaging),Low Earth Orbit (LEO),34807,India,Indian Space Research Organisation (ISRO),N/A
+53,OCEANSAT-2,23-09-2009,PSLV-C14,Not Operational,Earth Observation,Sun-Synchronous Orbit (SSO),35931,India,Indian Space Research Organisation (ISRO),N/A
+54,GSAT-4,15-04-2010,GSLV-D3,Not Operational,Communications,N/A (launch failure),N/A,India,Indian Space Research Organisation (ISRO),Launch unsuccessful
+55,CARTOSAT-2B,12-07-2010,PSLV-C15,Operational,Earth Observation,Sun-Synchronous Orbit (SSO),36795,India,Indian Space Research Organisation (ISRO),N/A
+56,HYLAS,27-11-2010,Ariane5,Not Operational,Communications,Geostationary Orbit (GEO),N/A,United Kingdom,Avanti Communications,Satellite built by ISRO for foreign customer
+57,GSAT-5P,25-12-2010,GSLV-F06,Not Operational,Communications,N/A (launch failure),N/A,India,Indian Space Research Organisation (ISRO),Launch unsuccessful
+58,RESOURCESAT-2,20-04-2011,PSLV-C16,Operational,Earth Observation,Sun-Synchronous Orbit (SSO),37387,India,Indian Space Research Organisation (ISRO),N/A
+59,YOUTHSAT,20-04-2011,PSLV-C16,Not Operational,Technology Demonstration,Sun-Synchronous Orbit (SSO),37388,India,Indian Space Research Organisation (ISRO),N/A
+60,GSAT-8,21-05-2011,Ariane-5 VA202,Not Operational,Communications,Geostationary Orbit (GEO),37605,India,Indian Space Research Organisation (ISRO),N/A
+61,GSAT-12,15-07-2011,PSLV-C17,Not Operational,Communications,Geostationary Orbit (GEO),37746,India,Indian Space Research Organisation (ISRO),N/A
+62,MEGHA TROPIQUES,12-10-2011,PSLV-C18,Not Operational,Earth Observation (Meteorology),Low Earth Orbit (LEO),37838,India,Indian Space Research Organisation (ISRO),N/A
+63,RISAT-1,26-04-2012,PSLV-C19,Not Operational,Earth Observation (Radar Imaging),Sun-Synchronous Orbit (SSO),38248,India,Indian Space Research Organisation (ISRO),N/A
+64,GSAT-10,29-09-2012,Ariane-5 VA209,Operational,Communications,Geostationary Orbit (GEO),38779,India,Indian Space Research Organisation (ISRO),N/A
+65,SARAL,25-02-2013,PSLV-C20,Operational,Earth Observation (Altimetry),Sun-Synchronous Orbit (SSO),39086,India,Indian Space Research Organisation (ISRO),N/A
+66,MARS ORBITER MISSION,11-05-2013,PSLV-C25,Not Operational,Space Science (Planetary/Mars Exploration),Martian Orbit,39370,India,Indian Space Research Organisation (ISRO),N/A
+67,IRNSS-1A,01-07-2013,PSLV-C22,Operational,Navigation,Inclined Geosynchronous Orbit (IGSO),39199,India,Indian Space Research Organisation (ISRO),Operational for Messaging service/Disaster Alerts
+68,INSAT-3D,26-07-2013,Ariane-5 VA214,Operational,Earth Observation (Meteorology),Geostationary Orbit (GEO),39216,India,Indian Space Research Organisation (ISRO),N/A
+69,GSAT-7,30-08-2013,Ariane-5 VA215,Operational,Communications (Military),Geostationary Orbit (GEO),39234,India,Indian Navy (satellite built by ISRO),N/A
+70,GSAT-14,05-01-2014,GSLV-D5,Operational,Communications,Geostationary Orbit (GEO),39498,India,Indian Space Research Organisation (ISRO),N/A
+71,IRNSS-1B,04-04-2014,PSLV-C24,Operational,Navigation,Inclined Geosynchronous Orbit (IGSO),39635,India,Indian Space Research Organisation (ISRO),Operational for PNT service
+72,IRNSS-1C,16-10-2014,PSLV-C26,Operational,Navigation,Geostationary Orbit (GEO),40269,India,Indian Space Research Organisation (ISRO),Operational for Messaging service/Disaster Alerts
+73,GSAT-16,07-12-2014,Ariane-5 VA221,Operational,Communications,Geostationary Orbit (GEO),40332,India,Indian Space Research Organisation (ISRO),N/A
+74,CARE,18-12-2014,LVM-3,Not Operational,Technology Demonstration (Re-entry),Sub-orbital,N/A,India,Indian Space Research Organisation (ISRO),N/A
+75,IRNSS-1D,28-03-2015,PSLV-C27,Not Operational,Navigation,Inclined Geosynchronous Orbit (IGSO),40547,India,Indian Space Research Organisation (ISRO),Not operational / Planned to be decommissioned
+76,GSAT-6,27-08-2015,GSLV-D6,Operational,Communications,Geostationary Orbit (GEO),40880,India,Indian Space Research Organisation (ISRO),N/A
+77,ASTROSAT,28-09-2015,PSLV-C30,Operational,Space Science (Astronomy),Low Earth Orbit (LEO),40930,India,Indian Space Research Organisation (ISRO),N/A
+78,GSAT-15,11-10-2015,Ariane-5 VA227,Operational,Communications,Geostationary Orbit (GEO),41028,India,Indian Space Research Organisation (ISRO),N/A
+79,IRNSS-1E,20-01-2016,PSLV-C31,Operational,Navigation,Inclined Geosynchronous Orbit (IGSO),41241,India,Indian Space Research Organisation (ISRO),Operational for Messaging service/Disaster Alerts
+80,IRNSS-1F,10-03-2016,PSLV-C32,Operational,Navigation,Geostationary Orbit (GEO),41384,India,Indian Space Research Organisation (ISRO),Operational for Messaging service/Disaster Alerts
+81,IRNSS-1G,28-04-2016,PSLV-C33,Operational,Navigation,Geostationary Orbit (GEO),41469,India,Indian Space Research Organisation (ISRO),Operational for Messaging service/Disaster Alerts
+82,CARTOSAT-2C,22-06-2016,PSLV-C34,Operational,Earth Observation,Sun-Synchronous Orbit (SSO),41599,India,Indian Space Research Organisation (ISRO),N/A
+83,INSAT-3DR,09-08-2016,GSLV-F05,Operational,Earth Observation (Meteorology),Geostationary Orbit (GEO),41752,India,Indian Space Research Organisation (ISRO),N/A
+84,SCATSAT-1,26-09-2016,PSLV-C35,Not Operational,Earth Observation (Meteorology),Sun-Synchronous Orbit (SSO),41790,India,Indian Space Research Organisation (ISRO),N/A
+85,GSAT-18,06-10-2016,Ariane-5 VA231,Operational,Communications,Geostationary Orbit (GEO),41793,India,Indian Space Research Organisation (ISRO),N/A
+86,RESOURESAT-2A,07-12-2016,PSLV-C36,Operational,Earth Observation,Sun-Synchronous Orbit (SSO),41877,India,Indian Space Research Organisation (ISRO),N/A
+87,CARTOSAT-2D,15-02-2017,PSLV-C37,Operational,Earth Observation,Sun-Synchronous Orbit (SSO),41948,India,Indian Space Research Organisation (ISRO),N/A
+88,INS-1A,15-02-2017,PSLV-C37,Not Operational,Technology Demonstration,Sun-Synchronous Orbit (SSO),41949,India,Indian Space Research Organisation (ISRO),N/A
+89,INS-1B,15-02-2017,PSLV-C37,Not Operational,Technology Demonstration,Sun-Synchronous Orbit (SSO),41954,India,Indian Space Research Organisation (ISRO),N/A
+90,GSAT-9,05-05-2017,GSLV-F09,Operational,Communications (South Asia Satellite),Geostationary Orbit (GEO),42695,India,Indian Space Research Organisation (ISRO),N/A
+91,GSAT-19,05-06-2017,GSLV Mk III D1,Operational,Communications,Geostationary Orbit (GEO),42747,India,Indian Space Research Organisation (ISRO),N/A
+92,CARTOSAT-2E,23-06-2017,PSLV-C38,Operational,Earth Observation,Sun-Synchronous Orbit (SSO),42767,India,Indian Space Research Organisation (ISRO),N/A
+93,GSAT-17,29-06-2017,Ariane-5 VA238,Operational,Communications,Geostationary Orbit (GEO),42815,India,Indian Space Research Organisation (ISRO),N/A
+94,IRNSS-1H,31-08-2017,PSLV-C39,Not Operational,Navigation,N/A (launch failure),N/A,India,Indian Space Research Organisation (ISRO),Launch unsuccessful
+95,CARTOSAT-2F,12-01-2018,PSLV-C40,Operational,Earth Observation,Sun-Synchronous Orbit (SSO),43111,India,Indian Space Research Organisation (ISRO),N/A
+96,MICROSAT-TD,12-01-2018,PSLV-C40,Not Operational,Earth Observation (Technology Demo),Sun-Synchronous Orbit (SSO),43128,India,Indian Space Research Organisation (ISRO),N/A
+97,INS-1C,12-01-2018,PSLV-C40,Not Operational,Technology Demonstration,Sun-Synchronous Orbit (SSO),N/A,India,Indian Space Research Organisation (ISRO),N/A
+98,GSAT-6A,29-03-2018,GSLV-F08,Not Operational,Communications,Geostationary Orbit (GEO),N/A,India,Indian Space Research Organisation (ISRO),Satellite failure
+99,IRNSS-1I,12-04-2018,PSLV-C41,Operational,Navigation,Inclined Geosynchronous Orbit (IGSO),43286,India,Indian Space Research Organisation (ISRO),Operational for PNT service
+100,GSAT-29,14-11-2018,GSLV Mk III D2,Operational,Communications,Geostationary Orbit (GEO),43698,India,Indian Space Research Organisation (ISRO),N/A
+101,HYSIS,29-11-2018,PSLV-C43,Operational,Earth Observation (Hyperspectral Imaging),Sun-Synchronous Orbit (SSO),43719,India,Indian Space Research Organisation (ISRO),N/A
+102,GSAT-11,05-12-2018,Ariane-5 VA246,Operational,Communications,Geostationary Orbit (GEO),43824,India,Indian Space Research Organisation (ISRO),N/A
+103,GSAT-7A,19-12-2018,GSLV-F11,Operational,Communications (Military),Geostationary Orbit (GEO),43864,India,Indian Air Force (satellite built by ISRO),N/A
+104,Microsat-R (ASAT),24-01-2019,PSLV-C44,Not Operational,Technology Demonstration (Defense),Low Earth Orbit (LEO),43947,India,Defence Research and Development Organisation - DRDO (satellite built by ISRO; used as A-SAT test target),N/A
+105,GSAT-31,06-02-2019,Ariane-5 VA247,Operational,Communications,Geostationary Orbit (GEO),44035,India,Indian Space Research Organisation (ISRO),N/A
+106,EMISAT,01-04-2019,PSLV-C45,Operational,Earth Observation (Electronic Intelligence),Sun-Synchronous Orbit (SSO),44078,India,Defence Research and Development Organisation - DRDO (satellite built by ISRO),N/A
+107,RISAT-2B,22-05-2019,PSLV-C46,Operational,Earth Observation (Radar Imaging),Low Earth Orbit (LEO),44233,India,Indian Space Research Organisation (ISRO),N/A
+108,Chandrayaan-2,22-07-2019,GSLV Mk III M1,Operational,Space Science (Lunar Exploration),Lunar Orbit,44441,India,Indian Space Research Organisation (ISRO),Operational (Orbiter)
+109,CARTOSAT-3,27-11-2019,PSLV-C47,Operational,Earth Observation,Sun-Synchronous Orbit (SSO),44804,India,Indian Space Research Organisation (ISRO),N/A
+110,RISAT-2BR1,11-12-2019,PSLV-C48,Operational,Earth Observation (Radar Imaging),Low Earth Orbit (LEO),44857,India,Indian Space Research Organisation (ISRO),N/A
+111,GSAT-30,17-01-2020,Ariane-5 VA251,Operational,Communications,Geostationary Orbit (GEO),45026,India,Indian Space Research Organisation (ISRO),N/A
+112,EOS-01 (RISAT2BR2),11-07-2020,PSLV-C49,Operational,Earth Observation (Radar Imaging),Low Earth Orbit (LEO),46905,India,Indian Space Research Organisation (ISRO),N/A
+113,CMS-01,17-12-2020,PSLV-C50,Operational,Communications,Geostationary Orbit (GEO),47256,India,Indian Space Research Organisation (ISRO),N/A
+114,EOS-03 (GISAT-1),12-08-2021,GSLV-F10,Not Operational,Earth Observation,N/A (launch failure),N/A,India,Indian Space Research Organisation (ISRO),Launch unsuccessful
+115,EOS-04(RISAT-1A),14-02-2022,PSLV-C52,Operational,Earth Observation (Radar Imaging),Sun-Synchronous Orbit (SSO),51656,India,Indian Space Research Organisation (ISRO),N/A
+116,INS-2TD,14-02-2022,PSLV-C52,Not Operational,Technology Demonstration,Sun-Synchronous Orbit (SSO),51658,India,Indian Space Research Organisation (ISRO),N/A
+117,GSAT-24,24-06-2022,ArianeV(VS257),Operational,Communications,Geostationary Orbit (GEO),52903,India,Indian Space Research Organisation (ISRO),N/A
+118,EOS-02 (Microsat-2A),07-08-2022,SSLV-D1,Not Operational,Earth Observation/Technology Demonstration,N/A (launch failure),N/A,India,Indian Space Research Organisation (ISRO),Launch unsuccessful
+119,EOS-06 (OS-3),26-11-2022,PSLV-C54,Operational,Earth Observation (Oceanography),Sun-Synchronous Orbit (SSO),54361,India,Indian Space Research Organisation (ISRO),N/A
+120,INDIA-BHUTAN SAT,26-11-2022,PSLV-C54,Operational,Earth Observation,Low Earth Orbit (LEO),54365,India / Bhutan,"ISRO / Department of Information Technology and Telecom (DITT), Bhutan",N/A
+121,EOS-07 (Microsat-2B),10-02-2023,SSLV-D2,Operational,Earth Observation,Low Earth Orbit (LEO),55562,India,Indian Space Research Organisation (ISRO),N/A
+122,NVS-01,29-05-2023,GSLV-F12,Operational,Navigation,Geosynchronous Orbit (GSO),56759,India,Indian Space Research Organisation (ISRO),Operational for PNT service
+123,Chandrayaan-3,14-07-2023,LVM3 M4,Not Operational,Space Science (Lunar Exploration),Lunar Orbit / Surface (Landed),57320,India,Indian Space Research Organisation (ISRO),N/A
+124,Aditya-L1,02-09-2023,PSLV-C57,Operational,Space Science (Solar Observation),Halo Orbit around Sun-Earth L1,57754,India,Indian Space Research Organisation (ISRO),N/A
+125,XPoSat,01-01-2024,PSLV-C58,Operational,Space Science (X-ray Astronomy),Low Earth Orbit (LEO),58694,India,Indian Space Research Organisation (ISRO),N/A
+126,INSAT-3DS,17-02-2024,GSLV-F14,Operational,Earth Observation (Meteorology),Geostationary Orbit (GEO),58990,India,Indian Space Research Organisation (ISRO),N/A
+127,EOS-08 ( Microsat-2C),16-08-2024,SSLV-D3,Operational,Earth Observation,Low Earth Orbit (LEO),60454,India,Indian Space Research Organisation (ISRO),N/A
+128,GSAT-N2,19-11-2024,Falcon-9,Operational,Communications,Geostationary Orbit (GEO),62028,India,Indian Space Research Organisation (ISRO),N/A
+129,SPADEX-A,30-12-2024,PSLV C60,Operational,Technology Demonstration (Docking Experiment),Low Earth Orbit (LEO),62459,India,Indian Space Research Organisation (ISRO),N/A
+130,SPADEX-B,30-12-2024,PSLV C60,Operational,Technology Demonstration (Docking Experiment),Low Earth Orbit (LEO),62460,India,Indian Space Research Organisation (ISRO),N/A
+131,NVS-02,29-01-2025,GSLV-F15,Not operational,Navigation,Geosynchronous Orbit (GSO),62850,India,Indian Space Research Organisation (ISRO),N/A
+132,RISAT-1B (EOS-09),18-05-2025,PSLV-C61,Not Operational,Earth Observation (Radar Imaging),N/A (launch failure),N/A,India,Indian Space Research Organisation (ISRO),Launch unsuccessful
+133,NISAR,30-07-2025,GSLV-F16,Operational,Earth Observation (Radar Imaging),Sun-Synchronous Orbit (SSO),65053,India / USA,ISRO / NASA,N/A
+134,CMS-03 (GSAT-7R),02-11-2025,LVM3-M5,Operational,Communications,Geostationary Orbit (GEO),66311,India,Indian Navy (satellite built by ISRO),N/A
+135,ANVESHA (EOS-N1),12-01-2026,PSLV-C62,Not Operational,Earth Observation (Hyperspectral Imaging),N/A (launch failure),N/A,India,Indian Space Research Organisation (ISRO),Launch unsuccessful

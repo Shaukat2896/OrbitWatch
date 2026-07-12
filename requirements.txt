@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+skyfield
+streamlit_autorefresh
+python-dotenv
+requests
+plotly
