@@ -40,7 +40,7 @@ asset_utils.set_background("assets/earth_background.jpg")
 st.markdown(
     """
     <h1 style='text-align:center; color:white;'>
-        🗺️ Live Satellite Map
+        Live Satellite Map
     </h1>
     """,
     unsafe_allow_html=True,
@@ -178,7 +178,7 @@ with right:
 
                 st.divider()
 
-                st.write("Want to predict it orbit for next few hours ?")
+                st.write("Want to predict it's orbit for next few hours ?")
                 
                 if st.button("Predict orbit"):
                     st.switch_page("pages/Orbit_Predictor.py")

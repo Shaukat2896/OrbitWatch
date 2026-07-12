@@ -44,7 +44,7 @@ def style_fig(fig):
 # -----------------------------------------------------------------------
 st.markdown(
     """
-    <h1 style='text-align:center; color:white;'>📊 Analytics</h1>
+    <h1 style='text-align:center; color:white;'>Analytics</h1>
     """,
     unsafe_allow_html=True,
 )

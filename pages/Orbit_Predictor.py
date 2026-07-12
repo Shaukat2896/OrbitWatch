@@ -32,7 +32,7 @@ asset_utils.set_background("assets/earth_background.jpg")
 # -----------------------------------------------------------------------
 st.markdown(
     """
-    <h1 style='text-align:center; color:white;'>🔮 Orbit Predictor</h1>
+    <h1 style='text-align:center; color:white;'>Orbit Predictor</h1>
     """,
     unsafe_allow_html=True,
 )
@@ -85,7 +85,7 @@ with controls_col:
         )
 
         predict_clicked = st.button(
-            "🔮 Predict Position",
+            "Predict Position",
             width="stretch",
             disabled=(satellite_name is None)
         )
@@ -166,7 +166,5 @@ st.info(
     the future the prediction extends, and results should be used for
     educational purposes only, not for operational or mission-critical
     decisions.
-
-    Some satellites orbits are unable to predict, because they are either Geo Stationary Satellites or their details are confidential.
     """
 )
