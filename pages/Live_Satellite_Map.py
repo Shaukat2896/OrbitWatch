@@ -176,6 +176,13 @@ with right:
 
                 st.write(f"**Altitude:** {selected_location['altitude']:.2f} km")
 
+                st.divider()
+
+                st.write("Want to predict it orbit for next few hours ?")
+                
+                if st.button("Predict orbit"):
+                    st.switch_page("pages/Orbit_Predictor.py")
+
             else:
 
                 st.warning("Unable to determine the satellite location.")

@@ -94,7 +94,7 @@ The orbital positions are computed dynamically from the latest available TLE dat
 ```
 OrbitWatch/
 │
-├── app.py
+├── Home.py
 │
 ├── assets/
 │   ├── earth_background.jpg
@@ -144,12 +144,12 @@ pip install -r requirements.txt
 Run the application:
 
 ```bash
-streamlit run app.py
+streamlit run Home.py
 ```
 
 ---
 
-## 🚀 Application Workflow
+## Application Workflow
 
 ```
 Indian Satellite Dataset
@@ -222,18 +222,9 @@ Planned improvements include:
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots of:
-
-- Home Page
-- Live Satellite Map
-- Analytics Dashboard
-- Orbit Predictor
-
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 This project makes use of publicly available data and open-source software.
 
@@ -257,17 +248,11 @@ Satellite positions are computed using publicly available TLE data and should **
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License.
-
----
-
 ## 👨‍💻 Author
 
 **Shaukat Muchukota**
 
-GitHub: https://github.com/Shaukat2896/OrbitWatch-India---Indian-Satellite-Space-Situational-Awareness-Platform
+GitHub: https://github.com/Shaukat2896/OrbitWatch
 
 LinkedIn: https://linkedin.com/in/shaukat-muchukota-024048322
 

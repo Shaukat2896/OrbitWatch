@@ -166,5 +166,7 @@ st.info(
     the future the prediction extends, and results should be used for
     educational purposes only, not for operational or mission-critical
     decisions.
+
+    Some satellites orbits are unable to predict, because they are either Geo Stationary Satellites or their details are confidential.
     """
 )
