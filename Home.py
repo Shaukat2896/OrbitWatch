@@ -187,7 +187,7 @@ The data auto-refreshes every {TLE_utils.UPDATE_INTERVAL_HOURS} hours. These sat
             f"""
 🔴 **The last TLE update attempt failed** 
 
-OrbitWatch is still showing the most recently downloaded TLE data on disk, which may be out of date.
+OrbitWatch is still showing the most recently downloaded TLE data .
 """
         )
 
