@@ -2,13 +2,8 @@ from datetime import datetime, timezone
 import streamlit as st
 from services import asset_utils
 from services import data_manager as dm
-from services import TLE_utils
 
-# -----------------------------------------
-# Start background TLE auto-updater
-# (runs once per app process, refreshes every 4 hours)
-# -----------------------------------------
-TLE_utils.start_tle_scheduler()
+
 
 # -----------------------------------------
 # Page Configuration
@@ -154,42 +149,7 @@ and future orbit prediction to improve awareness of India's space assets.
 """
 )
 
-st.subheader("NOTE")
 
-tle_status = TLE_utils.get_last_update_status()
-
-if tle_status is None:
-    st.warning(
-        "🟡 TLE update status is not available yet — the auto-updater "
-        "hasn't completed its first run. This usually resolves within a "
-        "few seconds of the app starting."
-    )
-else:
-    last_updated = datetime.fromisoformat(tle_status["timestamp"])
-    minutes_ago = int((datetime.now(timezone.utc) - last_updated).total_seconds() // 60)
-
-    if minutes_ago < 60:
-        ago_text = f"{minutes_ago} minute{'s' if minutes_ago != 1 else ''} ago"
-    else:
-        hours_ago = minutes_ago // 60
-        ago_text = f"{hours_ago} hour{'s' if hours_ago != 1 else ''} ago"
-
-    if tle_status["success"]:
-        st.success(
-            f"""
-🟢 **TLE data is up to date** — last refreshed **{ago_text}** ({last_updated.strftime('%Y-%m-%d %H:%M:%S')} UTC).
-
-The data auto-refreshes every {TLE_utils.UPDATE_INTERVAL_HOURS} hours. These satellite details are approximated using orbital calculations and should be used for educational purposes only.
-"""
-        )
-    else:
-        st.error(
-            f"""
-🔴 **The last TLE update attempt failed** 
-
-OrbitWatch is still showing the most recently downloaded TLE data .
-"""
-        )
 
 st.divider()
 

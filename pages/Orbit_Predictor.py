@@ -166,5 +166,10 @@ st.info(
     the future the prediction extends, and results should be used for
     educational purposes only, not for operational or mission-critical
     decisions.
+
+    Some satellites are unable to track, because their information may not be available publicly.
+
+    Some satellites are not moving, because they are Geo Stationary Satellites.
+
     """
 )
