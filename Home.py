@@ -169,7 +169,7 @@ st.markdown(
 with st.container(border=True):
 
     st.markdown("""
-        <h4 style="text-align:center;">🗺️ Live Satellite Map</h4>
+        <h4 style="text-align:center;">Live Satellite Map</h4>
         <p style="text-align:center;">
             Monitor the live positions of Indian satellites on an interactive world map.
         </p>
@@ -189,7 +189,7 @@ with st.container(border=True):
 with st.container(border=True):
 
     st.markdown("""
-        <h4 style="text-align:center;">🔮 Orbit Predictor</h4>
+        <h4 style="text-align:center;">Orbit Predictor</h4>
         <p style="text-align:center;">
             Get future predictions of the Indian satellite
         </p>
@@ -205,11 +205,30 @@ with st.container(border=True):
         ):
             st.switch_page("pages/Orbit_Predictor.py")
 
+with st.container(border=True):
+
+    st.markdown("""
+        <h4 style="text-align:center;">Collision Risk Detector</h4>
+        <p style="text-align:center;">
+            Get the closest approaching objects to the Indian satellites for next few hours
+        </p>
+    """, unsafe_allow_html=True)
+
+    _, c, _ = st.columns([1,2,1])
+
+    with c:
+        if st.button(
+            "Explore",
+            width="stretch",
+            key="Collision Risk Detector"
+        ):
+            st.switch_page("pages/Closest_Approach_Detector.py")
+
 
 with st.container(border=True):
 
     st.markdown("""
-        <h4 style="text-align:center;">📊 Analytics</h4>
+        <h4 style="text-align:center;">Analytics</h4>
         <p style="text-align:center;">
             Visualize trends, missions, and orbital distributions.
         </p>
@@ -268,11 +287,12 @@ st.markdown(
     </p>
 
     <p style="font-size:13px;">
-    Version 1.0
+    Version 1.5
     </p>
 
     </div>
     """,
     unsafe_allow_html=True,
 )
+
 

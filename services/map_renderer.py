@@ -83,8 +83,8 @@ def draw_all_satellites(
     return image
 
 #@st.fragment(run_every="10s")
-def live_map(df):
-    locations = satellite_locator.locate_all_satellites(df)
+def live_map(df,locations):
+    #locations = satellite_locator.locate_all_satellites(df)
 
     image = draw_all_satellites(
         "assets/World_Map.jpg",

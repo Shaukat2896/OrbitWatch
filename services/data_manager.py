@@ -38,7 +38,7 @@ def load_dataframe_for_live_map(df):
 @st.cache_resource
 def load_tle_dictionary():
 
-    satellites = load.tle_file("data/active_satellites_TLE_data.tle")
+    satellites = load.tle_file("data/objects_orbiting_data.tle")
 
     return {
         sat.model.satnum: sat
@@ -67,4 +67,56 @@ def refresh():
 
     load_dataframe_for_live_map.clear()
 
+
+# for collision
+
+import numpy as np
+
+MU = 398600.4418
+EARTH_RADIUS = 6378.137
+
+
+def extract_parameters(satellite):
+
+    # NORAD
+    norad = satellite.model.satnum
+
+    # Inclination
+    inclination = np.degrees(
+        satellite.model.inclo
+    )
+
+    # Mean Motion
+    n = satellite.model.no_kozai / 60
+
+    # Semi-major Axis
+    semi_major = (MU / (n*n)) ** (1/3)
+
+    # Altitude
+    altitude = semi_major - EARTH_RADIUS
+
+    # Orbit Regime
+    if altitude < 2000:
+        regime = "LEO"
+
+    elif altitude < 35786:
+        regime = "MEO"
+
+    elif abs(altitude-35786) < 500:
+        regime = "GEO"
+
+    else:
+        regime = "HEO"
+
+    return {
+
+        "norad": norad,
+
+        "inclination": inclination,
+
+        "altitude": altitude,
+
+        "orbit": regime
+
+    }
 

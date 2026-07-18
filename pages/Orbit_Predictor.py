@@ -2,6 +2,7 @@ import streamlit as st
 
 from services import asset_utils, map_renderer, satellite_locator
 from services import data_manager as dm
+from streamlit_autorefresh import st_autorefresh
 
 # -----------------------------------------------------------------------
 # Page Configuration
@@ -12,6 +13,8 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed"
 )
+
+st_autorefresh(interval=10000, limit=None, key="live_map_refresh")
 
 # -----------------------------------------------------------------------
 # Session State

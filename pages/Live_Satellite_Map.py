@@ -72,7 +72,7 @@ st.session_state.locations = locations
 # -------------------------------------------------------------------------------------------------------------
 # World Map
 # --------------------------------------------------------------------------------------------------------------
-map_renderer.live_map(df)
+map_renderer.live_map(df,locations)
 
 
 
@@ -178,10 +178,15 @@ with right:
 
                 st.divider()
 
-                st.write("Want to predict it's orbit for next few hours ?")
+                st.write("Want to predict orbit for next few hours ?")
                 
                 if st.button("Predict orbit"):
                     st.switch_page("pages/Orbit_Predictor.py")
+
+                st.write("Want to predict closest approaching objects for next few hours ?")
+                
+                if st.button("Predict closest approaches"):
+                    st.switch_page("pages/Closest_Approach_Detector.py")
 
             else:
 
