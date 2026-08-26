@@ -40,8 +40,9 @@ with st.container(border=True):
     )
 
     predict = st.button(
-        "Predict Collision",
-        use_container_width=True
+        "Predict Closest Objects",
+        use_container_width=True,
+        type="primary"
     )
 
 if predict:

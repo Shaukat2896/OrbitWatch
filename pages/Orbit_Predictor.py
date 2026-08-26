@@ -2,7 +2,7 @@ import streamlit as st
 
 from services import asset_utils, map_renderer, satellite_locator
 from services import data_manager as dm
-from streamlit_autorefresh import st_autorefresh
+#from streamlit_autorefresh import st_autorefresh
 
 # -----------------------------------------------------------------------
 # Page Configuration
@@ -14,7 +14,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-st_autorefresh(interval=10000, limit=None, key="live_map_refresh")
+#st_autorefresh(interval=10000, limit=None, key="live_map_refresh")
 
 # -----------------------------------------------------------------------
 # Session State
@@ -90,7 +90,8 @@ with controls_col:
         predict_clicked = st.button(
             "Predict Position",
             width="stretch",
-            disabled=(satellite_name is None)
+            disabled=(satellite_name is None),
+            type="primary"
         )
 
         if predict_clicked and satellite_name is not None:
@@ -158,6 +159,13 @@ with map_col:
     legend_l.markdown("🟢 **Current Position**")
     legend_c.markdown("🔷 **Ground Track**")
     legend_r.markdown("🔴 **Predicted Position**")
+    st.divider()
+    st.write("Want to see the closest objects ?")
+    if st.button("View Closest Objects"):
+        st.switch_page("pages/Closest_Approach_Detector.py")
+    st.write("Want to see the live map of satellites ?")
+    if st.button("Live Indian Satellite Map"):
+        st.switch_page("pages/Live_Satellite_Map.py")
 
 st.divider()
 
