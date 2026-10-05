@@ -6,3 +6,8 @@ streamlit_autorefresh
 python-dotenv
 requests
 plotly
+logging
+base64
+PIL
+
+

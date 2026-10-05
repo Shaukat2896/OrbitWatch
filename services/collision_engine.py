@@ -1,4 +1,5 @@
 import numpy as np
+import logging
 
 MU = 398600.4418          # km³/s²
 EARTH_RADIUS = 6378.137   # km
@@ -154,8 +155,6 @@ def evaluate_risk(distance):
 
 
 
-
-import logging
 
 logger = logging.getLogger(__name__)
 
