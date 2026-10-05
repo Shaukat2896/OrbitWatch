@@ -65,9 +65,16 @@ if predict:
 
     st.subheader("Prediction Results")
 
-    if len(results) == 0:
+    if results is None:
 
-        st.success("No nearby objects found / Unable to locate the object.")
+        st.error(
+            "Closest approach detection failed. "
+            "Safety could not be verified."
+        )
+
+    elif len(results) == 0:
+
+        st.success("No nearby objects found.")
 
     else:
 

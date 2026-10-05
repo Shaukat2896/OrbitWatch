@@ -1,5 +1,5 @@
 Sl. No,Satellite Name,Launch Date,Launch Vehicle,Status,Mission Type,Orbit Type,NORAD ID,Operating Country,Operating Organization,Remarks
-1,Aryabhatta,19-04-1975,C-1 Intercosmos,Not Operational,Technology Demonstration,Low Earth Orbit (LEO),07752,India,Indian Space Research Organisation (ISRO),N/A
+1,Aryabhatta,19-04-1975,C-1 Intercosmos,Not Operational,Technology Demonstration,Low Earth Orbit (LEO),7752,India,Indian Space Research Organisation (ISRO),N/A
 2,Bhaskara-1,07-06-1979,C1 Intercosmos,Not Operational,Earth Observation,Low Earth Orbit (LEO),11392,India,Indian Space Research Organisation (ISRO),N/A
 3,Rohini Technology Payload,10-08-1979,SLV-3E1,Not Operational,Technology Demonstration,N/A (did not reach orbit),N/A,India,Indian Space Research Organisation (ISRO),N/A
 4,RS-1,18-07-1980,SLV-3E2,Not Operational,Technology Demonstration,Low Earth Orbit (LEO),11899,India,Indian Space Research Organisation (ISRO),N/A
@@ -134,3 +134,4 @@ Sl. No,Satellite Name,Launch Date,Launch Vehicle,Status,Mission Type,Orbit Type,
 133,NISAR,30-07-2025,GSLV-F16,Operational,Earth Observation (Radar Imaging),Sun-Synchronous Orbit (SSO),65053,India / USA,ISRO / NASA,N/A
 134,CMS-03 (GSAT-7R),02-11-2025,LVM3-M5,Operational,Communications,Geostationary Orbit (GEO),66311,India,Indian Navy (satellite built by ISRO),N/A
 135,ANVESHA (EOS-N1),12-01-2026,PSLV-C62,Not Operational,Earth Observation (Hyperspectral Imaging),N/A (launch failure),N/A,India,Indian Space Research Organisation (ISRO),Launch unsuccessful
+136,EOS-05,04-09-2026,GSLV-F17,Not Yet,Earth Observation,Geostationary Orbit (GEO),100607,India,Indian Space Research Organisation (ISRO),N/A

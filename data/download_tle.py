@@ -13,11 +13,11 @@ GROUPS = {
 }
 
 # Output location
-OUTPUT_FILE = r"C:\Users\shauk\OneDrive\personal\projects\personal\OrbitWatch\data\objects_orbiting_data.tle"
+OUTPUT_FILE = "objects_orbiting_data.tle"
 
 
 def download_and_merge_tle(urls, output_filename):
-    #print(f"Starting download and merge process into:\n{output_filename}\n")
+    print(f"Starting download and merge process into:\n{output_filename}\n")
 
     # Make sure the data directory exists
     os.makedirs(os.path.dirname(output_filename), exist_ok=True)
@@ -26,7 +26,7 @@ def download_and_merge_tle(urls, output_filename):
     with open(output_filename, "w", encoding="utf-8") as merged_file:
 
         for group_name, url in urls.items():
-            #print(f"Downloading {group_name} data...")
+            print(f"Downloading {group_name} data...")
 
             try:
                 # Fetch TLE data
@@ -40,15 +40,12 @@ def download_and_merge_tle(urls, output_filename):
                     # Add data to merged file
                     merged_file.write(data)
 
-                #print(f"Successfully added {group_name} data.")
+                print(f"Successfully added {group_name} data.")
 
             except Exception as e:
-                print(f"Error downloading {group_name}: {e}")
+                return f"Error downloading {group_name}: {e}"
 
-            #print("-" * 40)
+            print("-" * 40)
 
-    #print("\nAll done!")
-    #print(f"Merged TLE file saved at:\n{os.path.abspath(output_filename)}")
-
-if __name__ == "__main__":
-    download_and_merge_tle(GROUPS, OUTPUT_FILE)
+    print("\nAll done!")
+    print(f"Merged TLE file saved at:\n{os.path.abspath(output_filename)}")

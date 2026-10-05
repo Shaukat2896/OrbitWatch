@@ -155,6 +155,9 @@ def evaluate_risk(distance):
 
 
 
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 def closest_objects_detector(selected_norad, hours):
@@ -162,7 +165,15 @@ def closest_objects_detector(selected_norad, hours):
     tle_dict = dm.load_tle_dictionary()
 
     try:
-        target = tle_dict[selected_norad]
+        # Missing NORAD ID
+        try:
+            target = tle_dict[selected_norad]
+        except KeyError:
+            logger.error(
+                "Closest-object detection failed: NORAD ID %s not found in TLE dictionary.",
+                selected_norad
+            )
+            return None
 
         candidates = filter_objects(target)
 
@@ -171,21 +182,28 @@ def closest_objects_detector(selected_norad, hours):
 
         for candidate in candidates:
 
-            result = find_closest_approach(
-                target,
-                candidate["satellite"],
-                hours
-            )
+            try:
+                result = find_closest_approach(
+                    target,
+                    candidate["satellite"],
+                    hours
+                )
 
-            result["Risk"] = evaluate_risk(
-                result["Distance"]
-            )
+                result["Risk"] = evaluate_risk(
+                    result["Distance"]
+                )
 
-            if result["Risk"] == "Safe":
-                safe.append(result)
+                if result["Risk"] == "Safe":
+                    safe.append(result)
+                else:
+                    risky.append(result)
 
-            else:
-                risky.append(result)
+            except (KeyError, ValueError, TypeError) as e:
+                logger.exception(
+                    "Failed to process candidate during closest-object detection: %s",
+                    e
+                )
+                continue
 
         risky.sort(key=lambda x: x["Distance"])
         safe.sort(key=lambda x: x["Distance"])
@@ -194,6 +212,10 @@ def closest_objects_detector(selected_norad, hours):
             return risky
 
         return safe[:10]
-    
-    except:
-        return []
+
+    except Exception:
+        logger.exception(
+            "Unexpected failure during closest-object detection for NORAD ID %s.",
+            selected_norad
+        )
+        return None
